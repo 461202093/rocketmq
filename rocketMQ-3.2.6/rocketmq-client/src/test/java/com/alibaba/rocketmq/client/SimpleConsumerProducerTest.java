@@ -17,11 +17,13 @@ import com.alibaba.rocketmq.common.consumer.ConsumeFromWhere;
 import com.alibaba.rocketmq.common.message.Message;
 import com.alibaba.rocketmq.common.message.MessageExt;
 
-
+/**
+ * 
+ * @author panshuai
+ *
+ */
 public class SimpleConsumerProducerTest {
     private static final String TOPIC_TEST = "pan_test_topic";
-
-    //测试
     @Test
     public void producerConsumerTest() throws MQClientException, InterruptedException {
         System.setProperty("rocketmq.namesrv.domain", "jmenv.tbsite.alipay.net");
