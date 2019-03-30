@@ -21,6 +21,7 @@ import com.alibaba.rocketmq.common.message.MessageExt;
 public class SimpleConsumerProducerTest {
     private static final String TOPIC_TEST = "pan_test_topic";
 
+    
     @Test
     public void producerConsumerTest() throws MQClientException, InterruptedException {
         System.setProperty("rocketmq.namesrv.domain", "jmenv.tbsite.alipay.net");
